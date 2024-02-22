@@ -17,6 +17,7 @@ func selectionSort(arr: inout [Int]) {
             }
         }
         swap(arr: &arr, i: i, j: minj)
+        print(arr)
     }
 }
 
